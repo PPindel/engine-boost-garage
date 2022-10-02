@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&family=NTR&display=swap');
+
 body {
-    background-color: green;
+    background-color: rgb(33, 33, 33);
+}
+
+/* headings and logo */
+
+h1 {
+    color: orange;
+    font-family: Exo, sans-serif;
+}
+
+#logo {
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
 }
