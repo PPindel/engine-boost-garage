@@ -1,18 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&family=NTR&display=swap');
 
+
 body {
+    font-family: Exo, NTR, sans-serif;
+    margin: 0;
     background-color: rgb(33, 33, 33);
 }
 
-/* headings and logo */
+h1, h2, h3 {
 
-h1 {
     color: orange;
     font-family: Exo, sans-serif;
 }
 
-#logo {
+p {
+    color: orange;
+    font-family: NTR, sans-serif;
+}
+
+a {
+    font-family: NRT, sans-serif;
+    color: orange;
+    text-decoration: none;
+}
+
+/* header and logo */
+
+header h1 {
     font-size: 100px;
     text-transform: uppercase;
     text-align: center;
+}
+
+header p {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#logo-image {
+    padding: 1rem 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/engine.jpg') center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
 }
