@@ -65,21 +65,53 @@ nav > a {
 
 /* main section */
 
-#about-left-span {
+#about-left-div {
     float: left;
-    width: 50%;
-    margin: auto;
-    overflow: visible;
+    width: 40%;
 }
 
-#about-right-span {
+#about-right-div {
     float: right;
-    width: 50%;
-    margin: auto;
-    opacity: 0.8;
+    width: 60%;
+    margin-top: 0.5%;
+    height: auto;
+    opacity: 1;
+}
+
+#about-us-car {
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
 }
 
 #about-us-div {
     height: 100%;
     overflow: hidden;
+}
+
+.left-div-box {
+    padding: 1px 15px 1px 15px;
+	border-radius: 10px;
+	width: 95%;
+    margin: 5%;
+	background-color: rgb(15, 15, 15);
+    position: relative;
+    overflow: visible;
+}
+
+.left-div-box p {
+    font-size: larger;
+}
+
+.content-center {
+    justify-content: center;
+    margin: auto 5%;
+}
+
+#position-box-1 {
+    left: 20%;
+}
+
+#position-box-2 {
+    left: 10%;
 }
