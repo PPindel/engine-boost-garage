@@ -63,3 +63,23 @@ nav > a {
     margin: 1rem;
 }
 
+/* main section */
+
+#about-left-span {
+    float: left;
+    width: 50%;
+    margin: auto;
+    overflow: visible;
+}
+
+#about-right-span {
+    float: right;
+    width: 50%;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#about-us-div {
+    height: 100%;
+    overflow: hidden;
+}
