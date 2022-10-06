@@ -45,8 +45,9 @@ header p {
 #logo-image {
     padding: 1rem 0;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/engine.jpg') center center / cover no-repeat;
-    width: 100%;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /* navigation bar */
@@ -67,26 +68,21 @@ nav > a {
 
 #about-left-div {
     float: left;
-    width: 40%;
+    width: 39%;
+    margin: 0.5%;
 }
 
 #about-right-div {
     float: right;
-    width: 60%;
-    margin-top: 0.5%;
-    height: auto;
+    width: 59%;
+    margin: 0.5%;
     opacity: 1;
-}
-
-#about-us-car {
     border-radius: 10px;
-    height: auto;
-    width: 100%;
-}
-
-#about-us-div {
-    height: 100%;
-    overflow: hidden;
+    background-image: url('../images/about-us-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    height: 600px;
 }
 
 .left-div-box {
@@ -109,11 +105,11 @@ nav > a {
 }
 
 #position-box-1 {
-    left: 20%;
+    left: 60%;
 }
 
 #position-box-2 {
-    left: 10%;
+    left: 30%;
 }
 
 /* footer */
