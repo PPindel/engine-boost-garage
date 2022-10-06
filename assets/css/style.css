@@ -115,3 +115,22 @@ nav > a {
 #position-box-2 {
     left: 10%;
 }
+
+/* footer */
+
+footer {
+    height: 100%;
+}
+
+.footer-style {
+    text-align: center;
+}
+
+.footer-style li {
+    display: inline;
+}
+
+.footer-style i {
+    font-size: 350%;
+    padding: 2%;
+}
