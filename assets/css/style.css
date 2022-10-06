@@ -68,14 +68,15 @@ nav > a {
 
 #about-left-div {
     float: left;
-    width: 39%;
-    margin: 0.5%;
+    margin-top: 1.25%;
+    width: 20%;
+    height: 600px;
 }
 
 #about-right-div {
     float: right;
-    width: 59%;
-    margin: 0.5%;
+    margin-top: 1.25%;
+    width: 80%;
     opacity: 1;
     border-radius: 10px;
     background-image: url('../images/about-us-img.jpg');
@@ -88,11 +89,11 @@ nav > a {
 .left-div-box {
     padding: 1px 15px 1px 15px;
 	border-radius: 10px;
-	width: 95%;
-    margin: 5%;
+    margin: 8%;
 	background-color: rgb(15, 15, 15);
     position: relative;
     overflow: visible;
+    width: 200%;
 }
 
 .left-div-box p {
@@ -101,21 +102,14 @@ nav > a {
 
 .content-center {
     justify-content: center;
-    margin: auto 5%;
-}
-
-#position-box-1 {
-    left: 60%;
-}
-
-#position-box-2 {
-    left: 30%;
+    margin: auto 1.5%;
 }
 
 /* footer */
 
 footer {
-    height: 100%;
+    width: 100%;
+    bottom: 0;
 }
 
 .footer-style {
