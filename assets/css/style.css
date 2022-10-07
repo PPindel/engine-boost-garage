@@ -198,6 +198,10 @@ footer {
         margin: 0;
     }
 
+    #nissan-img {
+        width: auto;
+    }
+
     #quote {
         width: auto;
     }
