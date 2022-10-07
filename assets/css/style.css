@@ -72,14 +72,12 @@ nav > a {
 
 #about-left-div {
     float: left;
-    margin-top: 2.5%;
     width: 10%;
     height: 600px;
 }
 
 #about-right-div {
     float: right;
-    margin-top: 1.25%;
     width: 90%;
     opacity: 1;
     border-radius: 10px;
@@ -87,7 +85,7 @@ nav > a {
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
-    height: 600px;
+    height: 650px;
 }
 
 .left-div-box {
@@ -97,7 +95,7 @@ nav > a {
 	background-color: rgb(15, 15, 15);
     position: relative;
     overflow: visible;
-    width: 500%;
+    width: 465%;
 }
 
 .left-div-box p {
@@ -105,8 +103,10 @@ nav > a {
 }
 
 .content-center {
+    display: flex;
     justify-content: center;
-    margin: auto;
+    align-items: center;
+    margin-top: 1.5%;
 }
 
 #nissan-img {
@@ -114,6 +114,21 @@ nav > a {
     height: auto;
     text-align: center center;
     border-radius: 10px;
+}
+
+#quote {
+    font-size: 125%;
+    font-family: NTR, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+
+    width: 320px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(15, 15, 15);
+    margin: 0.5%;
+    position: sticky;
 }
 
 /* footer */
