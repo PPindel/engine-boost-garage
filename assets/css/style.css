@@ -38,7 +38,7 @@ header h1 {
 }
 
 header p {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -71,13 +71,11 @@ nav > a {
 /* main section */
 
 #about-left-div {
-    float: left;
     width: 10%;
     height: 600px;
 }
 
 #about-right-div {
-    float: right;
     width: 90%;
     opacity: 1;
     border-radius: 10px;
@@ -152,4 +150,67 @@ footer {
 .footer-style i {
     font-size: 350%;
     padding: 2%;
+}
+
+/* Media queries */
+
+/* For size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    header h1 {
+        font-size: 50px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    header p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .content-center {
+        display: block;
+    }
+
+    .left-div-box {
+        border-radius: 10px;
+        margin: 0.2%;
+        background-color: rgb(15, 15, 15);
+        width: auto;
+    }
+
+    #about-left-div {
+        width: auto;
+    }
+
+    #about-right-div {
+        display: none;
+    }
+
+    #quote {
+        width: auto;
+    }
+}
+/* For size from 800px wide and down */
+@media screen and (max-width: 800px) {
+    
+
+    .footer-style {
+        text-align: center;
+    }
+}
+
+
+
+/* For size from 500px wide and down */
+@media screen and (max-width: 500px) {
+
+    nav {
+        padding: 0;
+    }
+
+    nav > a {
+        font-size: 10px;
+        margin: 0.5rem;
+        }
 }
