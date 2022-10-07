@@ -72,7 +72,7 @@ nav > a {
 
 #about-left-div {
     width: 10%;
-    height: 600px;
+    height: 700px;
 }
 
 #about-right-div {
@@ -83,7 +83,7 @@ nav > a {
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
-    height: 650px;
+    height: 700px;
 }
 
 .left-div-box {
@@ -130,6 +130,16 @@ nav > a {
 }
 
 /* footer */
+
+#bottom { /* -> tag for nav element */
+    padding: 1%;
+    width: auto;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+} 
 
 footer {
     width: 100%;
@@ -181,10 +191,12 @@ footer {
 
     #about-left-div {
         width: auto;
+        height: auto;
     }
 
     #about-right-div {
         display: none;
+        margin: 0;
     }
 
     #quote {
@@ -213,4 +225,12 @@ footer {
         font-size: 10px;
         margin: 0.5rem;
         }
+    
+    .footer-style {
+        margin-left: -10%;
+    }
+
+    #bottom {
+        font-size: x-small;
+    }
 }
