@@ -225,6 +225,7 @@ Another way to accessibility test you site is to try to click on the browser and
 
 ## Deployment
 ![obraz](https://user-images.githubusercontent.com/114284732/194729228-7d0a2b17-cf63-49fe-a8b8-306db1a7c52c.png)
+![obraz](https://user-images.githubusercontent.com/114284732/194729491-7a0aa11c-5c88-4edc-a8d6-df6d7225e4b7.png)
 
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
