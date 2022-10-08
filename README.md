@@ -224,6 +224,7 @@ Another way to accessibility test you site is to try to click on the browser and
 
 
 ## Deployment
+1. In the repository that you are going to deploy click the settings icon.
 ![obraz](https://user-images.githubusercontent.com/114284732/194729228-7d0a2b17-cf63-49fe-a8b8-306db1a7c52c.png)
 
 
