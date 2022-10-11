@@ -25,8 +25,31 @@
         <a href="#bottom" aria-label="Go to the social media links">Socials</a>
     </nav>
 
-    <section class="main-limit">
-        Booking goes here
+    <section class="booking-section main-limit">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="booking-form">
+            <h2>Tell us about your mate:</h2>
+            <label for="make">Make:</label>
+            <input id="make" name="car_make" type="text" required class="text-input">
+            
+            <label for="model">Model:</label>
+            <input id="model" name="car_model" type="text" required class="text-input">
+
+            <label for="year">Year:</label>
+            <input id="year" name="car_year" type="number" required class="text-input">
+            
+            <label for="petrol">Petrol</label>
+            <input type="radio" id="petrol" name="fuel_type" value="petrol" required>
+            <label for="diesel">Diesel</label>
+            <input type="radio" id="diesel" name="fuel_type" value="diesel" required>
+            <label for="hybrid">Hybrid</label>
+            <input type="radio" id="hybrid" name="fuel_type" value="hybrid" required>
+            <br>
+            <br>
+            <label for="email">Your email address:</label>
+            <input type="email" id="email" name="email_address" required class="text-input">
+            
+            <input class="submit-button" type="submit" value="Get BOOST!">
+        </form>
     </section>
 
     <footer>

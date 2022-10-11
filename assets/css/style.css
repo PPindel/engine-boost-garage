@@ -140,17 +140,74 @@ nav > a {
     border: 1px solid #ccc;
     width: auto;
     align-items: center;
+    border-radius: 10px;
   }
 
 .project img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .description {
     padding: 5px;
     text-align: center;
     font-size: larger;
+}
+
+/* Form */
+
+.booking-section {
+    background-image: url('../images/nissan-skyline-min.jpg');
+    background-size: cover;
+    background-position: left;
+    height: 750px;
+    margin: 1% auto;
+    border-radius: 10px;
+}
+
+.booking-form {
+    color: white;
+    background-color: rgba(15, 15, 15, 0.8);
+    max-width: 400px;
+    padding: 30px;
+    margin: 1%;
+
+}
+
+.booking-form > h2 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.text-input {
+    background: transparent;
+    color: white;
+    width: 100%;
+    height: 25px;
+    margin: 1% 0 3% 0;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: orange;
+}
+
+.submit-button {
+    margin-top: 4%;
+    padding: 3% 6%;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: orange;
+    color: black;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: black;
+    color: orange;
 }
 
 /* footer */
