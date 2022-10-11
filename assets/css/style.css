@@ -26,7 +26,8 @@ a {
 }
 
 a:hover {
-    color: silver;
+    color: yellow;
+    font-size: larger;
 }
 
 /* header and logo */
@@ -137,7 +138,7 @@ nav > a {
 
 .project {
     margin: 1%;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     width: auto;
     align-items: center;
     border-radius: 10px;
@@ -243,6 +244,12 @@ nav > a {
 .footer-style i {
     font-size: 550%;
 }
+
+.footer-style a:hover i {
+    transform: rotate(-15deg) scale(1.5);
+    color: yellow;
+}
+
 
 /* Media queries */
 
