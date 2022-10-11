@@ -133,6 +133,26 @@ nav > a {
     position: sticky;
 }
 
+/* projects gallery */
+
+.project {
+    margin: 1%;
+    border: 1px solid #ccc;
+    width: auto;
+    align-items: center;
+  }
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    padding: 5px;
+    text-align: center;
+    font-size: larger;
+}
+
 /* footer */
 
 #bottom { /* -> tag for nav element */
@@ -146,29 +166,25 @@ nav > a {
 } 
 
 #bottom i {
-    font-size: 275%;
-}
-
-footer {
-    width: 100%;
-    height: 100%;
+    font-size: 250%;
 }
 
 .footer-style {
     bottom: 0;
     width: 100%;
-    text-align: center;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1.5%;
 }
 
 .footer-style li {
     display: inline;
-    margin: 3%;
+    margin: 5%;
 }
 
 .footer-style i {
-    font-size: 350%;
-    padding: 2%;
+    font-size: 550%;
 }
 
 /* Media queries */
@@ -215,8 +231,22 @@ footer {
     #quote {
         width: auto;
     }
+
+    .footer-style i {
+        font-size: 450%;
+    }
 }
 
+/* For size from 800px wide and down */
+@media screen and (max-width: 800px) {
+    .footer-style {
+        margin-left: -8%;
+    }
+
+    .footer-style i {
+        font-size: 350%
+    }
+}
 
 /* For size from 500px wide and down */
 @media screen and (max-width: 500px) {
@@ -227,6 +257,14 @@ footer {
 
     nav > a {
         font-size: 14px;
-        margin: 0.5rem;
+        margin: 0.46rem;
         }
+    
+    .footer-style {
+        margin-left: -10%;
+    }
+
+    .footer-style i {
+        font-size: 300%
+    }
 }
