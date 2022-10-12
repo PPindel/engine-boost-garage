@@ -211,6 +211,50 @@ nav > a {
     color: orange;
 }
 
+.thankyou-section {
+    background-image: url('../images/supra-min.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    margin: 1% auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#thankyou {
+    color: orange;
+    font-size: 200%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgba(15, 15, 15, 0.8);
+    margin: 10%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+#address {
+    color: orange;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgba(15, 15, 15, 0.8);
+    border-radius: 10px;
+    padding: 2%;
+}
+
+/* map */
+
+#wrapper {
+    height: 400px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
 /* footer */
 
 #bottom { /* -> tag for nav element */
