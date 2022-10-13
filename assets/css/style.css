@@ -343,8 +343,8 @@ nav > a {
     }
 
     #nissan-img {
-        width: 100%;
-        height: auto;
+        display: none;
+        margin: 0;
     }
     
     #quote {
