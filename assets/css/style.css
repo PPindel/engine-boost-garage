@@ -344,10 +344,12 @@ nav > a {
 
     #nissan-img {
         width: 100%;
+        height: auto;
     }
 
     #quote {
-        width: auto;
+        width: 100%;
+        height: auto;
     }
 
     .footer-style i {
