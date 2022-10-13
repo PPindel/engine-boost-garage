@@ -4,7 +4,7 @@
 body {
     font-family: Exo, NTR, sans-serif;
     margin: 0.5%;
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(25, 25, 25);
     overflow-x: hidden;
 }
 
@@ -47,9 +47,8 @@ header p {
 #logo-image {
     padding: 1px;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/engine.jpg') center center / cover no-repeat;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background-position: top;
+    background-size: cover;
     border-radius: 10px;
 }
 
