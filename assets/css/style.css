@@ -118,7 +118,7 @@ nav > a {
 }
 
 #nissan-img {
-    width: 75%;
+    width: 800px;
     height: auto;
     border-radius: 10px;
 }
@@ -128,7 +128,7 @@ nav > a {
     font-family: NTR, sans-serif;
     font-weight: bolder;
     font-style: italic;
-    width: 24%;
+    width: 400px;
     height: auto;
     padding: 15px;
     border-radius: 10px;
