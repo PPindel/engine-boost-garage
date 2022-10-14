@@ -136,6 +136,10 @@ nav > a {
     position: sticky;
 }
 
+.text-margin {
+    margin: auto 5%;
+}
+
 /* projects gallery */
 
 .project {
