@@ -240,6 +240,18 @@ nav > a {
     border-radius: 10px;
 }
 
+.dead-end {
+    background-image: url('../images/dead-end-min.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    margin: 1% auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* map */
 
 #wrapper {
