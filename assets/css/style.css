@@ -1,3 +1,4 @@
+/* Google font link */
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&family=NTR&display=swap');
 
 
@@ -71,7 +72,7 @@ nav > a {
     border-bottom: 1px solid orange;
 }
 
-/* main section */
+/* main section of index.html */
 
 .main-limit {
     max-width: 1200px;
@@ -108,6 +109,7 @@ nav > a {
     font-size: larger;
 }
 
+/* useful class to center sections */
 .content-center {
     display: flex;
     justify-content: center;
