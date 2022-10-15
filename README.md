@@ -16,76 +16,137 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 
 ====================================== The Sections you Fill in are below ==============================
 
-# PROJECT NAME
-*replace the **PROJECT NAME** header with your project's name*
-- Screenshot of logo/navigation of mobile deployed site
-- Include a link to deployed project with one line explanation of project
+# ENGINE BOOST GARAGE
+    
+![obraz](https://user-images.githubusercontent.com/114284732/195981196-24578f1f-295b-4aa6-8f16-978703f5808e.png)
 
-## Author
-DEVELOPER_NAME
+https://ppindel.github.io/engine-boost-garage/
 
-## Project Overview
-- Include a picture of site that shows it in responsive states and links to deployed code: https://ui.dev/amiresponsive
-- One or two paragraphs providing an overview of your project.
-- Write this as a sales pitch or commercial to entice users to interact with your site or how you want investors to purchase your website.
-- Include a link to your deployed website
+Milestone Project 1
+
+# Author
+Przemyslaw Pindel
+
+# Project Overview
+![obraz](https://user-images.githubusercontent.com/114284732/195981449-651e44be-fc06-4563-9576-9416eaec18af.png)
+Engine Boost Garage is a website of a garage specializing in tuning car engines and components. Dark theme with a contrasting orange color is a reference to late night rides in the light of street lamps - activity loved by every car lover, Need for Speed, Fast and Furios or JDM fan. Also provides clarity, readability and aesthetics.
 
 ## Table of Contents
 Generate after readme is complete for UX and below
 
 ## UX
-
 ### Project Goals
-Use this section to provide insight into your UX process, focusing on who this website is for, calling out demographics, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+As I mentioned before, the website design it is not accidental. It refers to the popular icons, fit into the subculture of the tuning world and targets adult users. Also provides proffesional, aesthetic look so every customer will enjoy the clear design of the site.
 
 ### Design Choices
-Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
 
-You may want to re-watch the videos about the [5 planes of UX development ](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/9c295bdc5a4048308460e262b14ab7df/) when writing up this section
+As a customer I expect:
+- clear look
+- simply navigation
+- easy to read and functional content
+- the feeling of using a premium product
+
+As a developer I expect:
+- easy to read code
+- hassle-free implementation of new features
+- simple adding of new content at the request of the owner
 
 #### Colors
 
-- Discuss your color pallet choices and how it ties into users' emotions or target audience.
-- include a screenshot of your pallet using a tool like coolors.co
+- Background - rgb(25, 25, 25) - grey
+- Headings - orange
+- Paragraphs - white
+- Hover action - yellow
+- Divs - rgb(15, 15, 15) - dark grey
+- Nav background - black
+
+Contrasting theme designed by myself - street lamps illuminates the dark night.
+
+![obraz](https://user-images.githubusercontent.com/114284732/195984115-aff236f7-1741-4a77-aed4-f1f6fe962206.png)
+
 
 #### Typography
 
-- discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
-- include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
+Exo, NTR - modern looking fonts well reflecting the spirit of the content. Pairing recommendation is given by https://fontjoy.com/
+![obraz](https://user-images.githubusercontent.com/114284732/195984131-8297294f-0247-42be-a26a-e2506bbf7ec8.png)
+
 
 #### Images
 
-Explain why you used certain icons and images on your site
+The selected images are supposed to affect the imagination, give the feeling of high speed, great power and beauty of cult cars.
+![obraz](https://user-images.githubusercontent.com/114284732/195984159-127b5db9-ee8e-40ed-9e11-e9e538798c65.png)
+![obraz](https://user-images.githubusercontent.com/114284732/195984218-6c720091-bd6c-405b-8b2e-10945e9a17fc.png)
+![obraz](https://user-images.githubusercontent.com/114284732/195984280-261bf919-09e9-4ac1-9e5f-9fc947a53ae0.png)
+![obraz](https://user-images.githubusercontent.com/114284732/195984291-b9154ce6-2198-41e7-8e57-737befb25f17.png)
 
 #### Animations and Transitions
 
-- discuss any special animations or transitions you've included 
-- special hover state effects
+I didn't want to overwhelm the user with too much animation effects. In my opinion it's very easy to distract a user from main content by adding animations everywhere and finally it ends as bad user experience. See below the effects I used:
+- The current page is marked by underline ![obraz](https://user-images.githubusercontent.com/114284732/195984465-5da4950d-d984-4c7b-b743-27f341f66b1f.png)
+- Hovering over the hiperlink element changes it color to yellow ![obraz](https://user-images.githubusercontent.com/114284732/195984528-64bb7c24-ca48-441b-b0c9-620875a4f220.png)
+- simply animation is added to social media icons ![obraz](https://user-images.githubusercontent.com/114284732/195984602-33d5ecce-e159-485f-824a-8cd1eb1ade11.png) -> ![obraz](https://user-images.githubusercontent.com/114284732/195984612-97dee213-26d2-4899-b9c7-d1442865f0a0.png)
 
 ### Wireframes
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in a separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser. 
+![obraz](https://user-images.githubusercontent.com/114284732/195985585-af183e7f-86a9-494b-bf24-3260ea8c5867.png)
 
-Wireframes can be as simple as a picture of a drawing of how you envisioned laying out the information for you pages in desktop, tablet and mobile views. They are a roadmap and do not have to be 100% accurate of the final product.
 
 ### Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
+This project contain three main pages:
+- home page with about as section and a motto that reflects the spirit of being car enthusiast.
+- projects page which contain a gallery with finished modifications and projects
+- booking page contains form where user provides info about his car to get possible tuning options and dates available
+- successful form submit is confirmed by "thank you message"
+- custom 404 page
 
 #### Implemented Features
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- Header:
+    all pages have the same header with nav bar
+    ![obraz](https://user-images.githubusercontent.com/114284732/195986726-99e2c861-2ca6-4c8d-a09b-5698c84f2590.png)
 
-It's easiest to break this section down into the header, footer, and each page/layer of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
+- Nav bar:
+    ![obraz](https://user-images.githubusercontent.com/114284732/195986739-f52b2c03-fcdd-4279-b071-135f6b3fe46f.png)
+    Navigates to home page, projects gallery and booking page. Also added tag to socials - bottom of the page for easy page navigation.
+    Current site is marked with underline.
 
-Don't forget your 404 error page.
+- About us section:
+    ![obraz](https://user-images.githubusercontent.com/114284732/195986817-d9c1c7bd-97a0-430f-bbe4-95c10cd3333b.png)
+    Short and consistent info about the company and services provided
+
+- Motto section:
+    ![obraz](https://user-images.githubusercontent.com/114284732/195986898-16500dd5-90cf-4f4e-8045-1a06c133785e.png)
+    Picture of beautiful car with quote of one of the most recognizable icon of the car world - Jeremy Clarkson.
+    This is not only business, this is our lifestyle.
+
+- Address and footer:
+    ![obraz](https://user-images.githubusercontent.com/114284732/195987007-ccdec1ee-188d-4c5c-87d9-1a9ce37893dc.png)
+    Address info on every page, footer with stylized icons lead to social websites and small arrow in the bottom left of the page to easy go back to top of the page.
+
+- Gallery:
+    ![obraz](https://user-images.githubusercontent.com/114284732/195987111-70733fed-ddff-4043-8144-e81f0a421de7.png)
+    Simple user and developer friendly gallery. Readable, nice design and new projects can be added very quick and easy.
+
+- Form
+    ![obraz](https://user-images.githubusercontent.com/114284732/195987157-6ce73cf6-dcba-42ec-96ec-34e8cd1bd471.png)
+    Consistent form section with cult car at the background. Button changes color on hover.
+    ![obraz](https://user-images.githubusercontent.com/114284732/195987259-002a9853-5909-4eb4-8a0c-a535ba326f49.png)
+    
+- Thank you page:
+    ![obraz](https://user-images.githubusercontent.com/114284732/195987274-a76b543c-52e8-43dc-9364-7d8659ae26d9.png)
+    Informs user about successful query submit.
+    
+- Custom 404 error page:
+    ![obraz](https://user-images.githubusercontent.com/114284732/195987330-31e3030c-88f4-4e60-8bd5-a6ca29306f1d.png)
+    Funny 404 error page to show user that we have a sense of humor :)
+    
 
 #### Future Features
 
-Use this section to discuss plans for additional features to be implemented in the future:
-
-If you end up not developing some features you hoped to implement, you can include those in this section.
-
+- page with optional tuning kits filtered by make, model, engine and year of the car
+- shop page to buy tuning accessories for diy
 
 ## Testing
 
