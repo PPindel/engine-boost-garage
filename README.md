@@ -83,9 +83,12 @@ The selected images are supposed to affect the imagination, give the feeling of 
 #### Animations and Transitions
 
 I didn't want to overwhelm the user with too much animation effects. In my opinion it's very easy to distract a user from main content by adding animations everywhere and finally it ends as bad user experience. See below the effects I used:
-- The current page is marked by underline ![obraz](https://user-images.githubusercontent.com/114284732/195984465-5da4950d-d984-4c7b-b743-27f341f66b1f.png)
-- Hovering over the hiperlink element changes it color to yellow ![obraz](https://user-images.githubusercontent.com/114284732/195984528-64bb7c24-ca48-441b-b0c9-620875a4f220.png)
-- simply animation is added to social media icons ![obraz](https://user-images.githubusercontent.com/114284732/195984602-33d5ecce-e159-485f-824a-8cd1eb1ade11.png) -> ![obraz](https://user-images.githubusercontent.com/114284732/195984612-97dee213-26d2-4899-b9c7-d1442865f0a0.png)
+- The current page is marked by underline
+  ![obraz](https://user-images.githubusercontent.com/114284732/195984465-5da4950d-d984-4c7b-b743-27f341f66b1f.png)
+- Hovering over the hiperlink element changes it color to yellow
+  ![obraz](https://user-images.githubusercontent.com/114284732/195984528-64bb7c24-ca48-441b-b0c9-620875a4f220.png)
+- simply animation is added to social media icons
+  ![obraz](https://user-images.githubusercontent.com/114284732/195984602-33d5ecce-e159-485f-824a-8cd1eb1ade11.png) -> ![obraz](https://user-images.githubusercontent.com/114284732/195984612-97dee213-26d2-4899-b9c7-d1442865f0a0.png)
 
 ### Wireframes
 
@@ -149,16 +152,19 @@ This project contain three main pages:
 - shop page to buy tuning accessories for diy
 
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+    The site was tested in 4 browsers for Windows PC - Chrome, Firefox, Edge and Opera. No issues detected.
+    Safari browser test passed - no issues detected.
+    Mobile browsers tested - Chrome, Firefox, Samsung browser - no issues detected.
+    Site is fully responsive for every size device.
 
 ### Validation Testing
-You should try to ensure you code is valid and follows proper indentation.  In this section you should write up any websites you used to validate your code. As your projects becomes more complex these tools may change.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+    ![obraz](https://user-images.githubusercontent.com/114284732/195988129-21d99b39-932f-4188-b3d8-dec7d48d36dc.png)
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color variables were ignored.
+    
 - [HTML Validator](https://validator.w3.org/)
+    ![obraz](https://user-images.githubusercontent.com/114284732/195988176-125b9378-dd91-46eb-b148-e5c89363a234.png)
+
 
 ### Cross Browser and Cross Device Testing
 1. Visit https://gs.statcounter.com/browser-market-share to figure out the most popular browsers & operating system combos seen across the we for the geographic region, and platoform(s) and screen sizes you expect your users to belong to. 
