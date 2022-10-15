@@ -11,16 +11,46 @@ Przemyslaw Pindel
 
 # Project Overview
 ![obraz](https://user-images.githubusercontent.com/114284732/195981449-651e44be-fc06-4563-9576-9416eaec18af.png)
-Engine Boost Garage is a website of a garage specializing in tuning car engines and components. Dark theme with a contrasting orange color is a reference to late night rides in the light of street lamps - activity loved by every car lover, Need for Speed, Fast and Furios or JDM fan. Also provides clarity, readability and aesthetics.
+Engine Boost Garage is a website of a garage specializing in tuning car engines and components. The dark theme with a contrasting orange color is a reference to late-night rides in the light of street lamps - an activity loved by every car lover, Need for Speed, Fast and Furious, or JDM fan. Also provides clarity, readability, and aesthetics.
 
 ## Table of Contents
 
-Generate after readme is complete for UX and below
+- [ENGINE BOOST GARAGE](#engine-boost-garage)
+- [Author](#author)
+- [Project Overview](#project-overview)
+  * [Table of Contents](#table-of-contents)
+  * [UX](#ux)
+    + [Project Goals](#project-goals)
+    + [Design Choices](#design-choices)
+      - [Colors](#colors)
+      - [Typography](#typography)
+      - [Images](#images)
+      - [Animations and Transitions](#animations-and-transitions)
+    + [Wireframes](#wireframes)
+    + [Features](#features)
+      - [Implemented Features](#implemented-features)
+      - [Future Features](#future-features)
+  * [Testing](#testing)
+    + [Validation Testing](#validation-testing)
+    + [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
+    + [Manual Testing](#manual-testing)
+    + [Defect Tracking](#defect-tracking)
+  * [Accessibility](#accessibility)
+    + [Lighthouse Audits](#lighthouse-audits)
+    + [Keyboard Navigation](#keyboard-navigation)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgments](#acknowledgments)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## UX
 ### Project Goals
 
-As I mentioned before, the website design it is not accidental. It refers to the popular icons, fit into the subculture of the tuning world and targets adult users. Also provides proffesional, aesthetic look so every customer will enjoy the clear design of the site.
+As I mentioned before, the website design is not accidental. It refers to popular icons, fit into the subculture of the tuning world, and targets adult users. Also provides a professional, aesthetic look so every customer will enjoy the clear design of the site.
 
 ### Design Choices
 
@@ -44,19 +74,19 @@ As a developer I expect:
 - Divs - rgb(15, 15, 15) - dark grey
 - Nav background - black
 
-Contrasting theme designed by myself - street lamps illuminates the dark night.
+Contrasting theme designed by myself - street lamps illuminate the night.
 
 ![obraz](https://user-images.githubusercontent.com/114284732/195984115-aff236f7-1741-4a77-aed4-f1f6fe962206.png)
 
 #### Typography
 
-Exo, NTR - modern looking fonts well reflecting the spirit of the content. Pairing recommendation is given by https://fontjoy.com/
+Exo, NTR - modern-looking fonts well reflecting the spirit of the content. A pairing recommendation is given by https://fontjoy.com/
 
 ![obraz](https://user-images.githubusercontent.com/114284732/195984131-8297294f-0247-42be-a26a-e2506bbf7ec8.png)
 
 #### Images
 
-The selected images are supposed to affect the imagination, give the feeling of high speed, great power and beauty of cult cars.
+The selected images are supposed to affect the imagination and give the feeling of high speed, great power, and beauty of cult cars.
 
 ![obraz](https://user-images.githubusercontent.com/114284732/195984159-127b5db9-ee8e-40ed-9e11-e9e538798c65.png)
 
@@ -68,13 +98,13 @@ The selected images are supposed to affect the imagination, give the feeling of 
 
 #### Animations and Transitions
 
-I didn't want to overwhelm the user with too much animation effects. In my opinion it's very easy to distract a user from main content by adding animations everywhere and finally it ends as bad user experience. See below the effects I used:
+I didn't want to overwhelm the user with too many animation effects. In my opinion, it's very easy to distract a user from the main content by adding animations everywhere and finally it ends as a bad user experience. See below the effects I used:
 
 - The current page is marked by underline
 
   ![obraz](https://user-images.githubusercontent.com/114284732/195984465-5da4950d-d984-4c7b-b743-27f341f66b1f.png)
 
-- Hovering over the hiperlink element changes it color to yellow
+- Hovering over the hyperlink element changes its color to yellow
 
   ![obraz](https://user-images.githubusercontent.com/114284732/195984528-64bb7c24-ca48-441b-b0c9-620875a4f220.png)
 
@@ -88,17 +118,18 @@ I didn't want to overwhelm the user with too much animation effects. In my opini
 
 ### Features
 
-This project contain three main pages:
-- home page with about as section and a motto that reflects the spirit of being car enthusiast.
-- projects page which contain a gallery with finished modifications and projects
-- booking page contains form where user provides info about his car to get possible tuning options and dates available
-- successful form submit is confirmed by "thank you message"
+This project contains three main pages:
+- home page with an about as section and a motto that reflects the spirit of being a car enthusiast.
+- projects page which contains a gallery with finished modifications and projects
+- booking page contains a form where a user provides info about his car to get possible tuning options and dates available
+- successful form submission is confirmed by "thank you message"
 - custom 404 page
 
 #### Implemented Features
 
 - Header:
-    all pages have the same header with nav bar
+
+    all pages have the same header with the nav bar
     
     ![obraz](https://user-images.githubusercontent.com/114284732/195986726-99e2c861-2ca6-4c8d-a09b-5698c84f2590.png)
 
@@ -106,8 +137,8 @@ This project contain three main pages:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195986739-f52b2c03-fcdd-4279-b071-135f6b3fe46f.png)
     
-    Navigates to home page, projects gallery and booking page. Also added tag to socials - bottom of the page for easy page navigation.
-    Current site is marked with underline.
+    Navigates to the home page, projects gallery, and booking page. Also added a tag to socials - at the bottom of the page for easy page navigation.
+    The current site is marked with an underline.
 
 - About us section:
 
@@ -119,26 +150,26 @@ This project contain three main pages:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195986898-16500dd5-90cf-4f4e-8045-1a06c133785e.png)
     
-    Picture of beautiful car with quote of one of the most recognizable icon of the car world - Jeremy Clarkson.
+    Image of a beautiful car with a quote from one of the most recognizable icons of the car world - Jeremy Clarkson.
     This is not only business, this is our lifestyle.
 
 - Address and footer:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195987007-ccdec1ee-188d-4c5c-87d9-1a9ce37893dc.png)
     
-    Address info on every page, footer with stylized icons lead to social websites and small arrow in the bottom left of the page to easy go back to top of the page.
+    Address info on every page, a footer with stylized icons leading to social websites, and a small arrow in the bottom left of the page to easily go back to the top of the page.
 
 - Gallery:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195987111-70733fed-ddff-4043-8144-e81f0a421de7.png)
     
-    Simple user and developer friendly gallery. Readable, nice design and new projects can be added very quick and easy.
+    Simple user and developer-friendly gallery. Readable, nice design and new projects can be added very quickly and easily.
 
 - Form
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195987157-6ce73cf6-dcba-42ec-96ec-34e8cd1bd471.png)
     
-    Consistent form section with cult car at the background. Button changes color on hover.
+    Consistent form section with the cult car in the background. The button changes color on hover.
     
     ![obraz](https://user-images.githubusercontent.com/114284732/195987259-002a9853-5909-4eb4-8a0c-a535ba326f49.png)
     
@@ -146,25 +177,25 @@ This project contain three main pages:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195987274-a76b543c-52e8-43dc-9364-7d8659ae26d9.png)
     
-    Informs user about successful query submit.
+    Informs user about successful query submission.
     
 - Custom 404 error page:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195987330-31e3030c-88f4-4e60-8bd5-a6ca29306f1d.png)
     
-    Funny 404 error page to show user that we have a sense of humor :)
+    404 error page to show a user that we have a sense of humor :)
     
 #### Future Features
 
-- page with optional tuning kits filtered by make, model, engine and year of the car
-- shop page to buy tuning accessories for diy
+- page with optional tuning kits filtered by make, model, engine, and year of the car
+- shop page to buy tuning accessories for DIY
 
 ## Testing
 
-    The site was tested in 4 browsers for Windows PC - Chrome, Firefox, Edge and Opera. No issues detected.
-    Safari browser test passed - no issues detected.
-    Mobile browsers tested - Chrome, Firefox, Samsung browser - no issues detected.
-    Site is fully responsive for every size device.
+   The site was tested in 4 browsers for Windows PC - Chrome, Firefox, Edge, and Opera. No issues were detected.
+   Safari browser test passed - no issues detected.
+   Mobile browsers tested - Chrome, Firefox, Samsung browser - no issues detected.
+   The site is fully responsive for every size device.
 
 ### Validation Testing
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -177,11 +208,11 @@ This project contain three main pages:
 
 ### Cross Browser and Cross Device Testing
 
-As the biggest market share in Ireland belongs to Chrome and Safari, I focused on this two browsers and didn't forget about others too.
+As the biggest market share in Ireland belongs to Chrome and Safari, I focused on these two browsers and didn't forget about others too.
 
 ![obraz](https://user-images.githubusercontent.com/114284732/195990724-13650686-9916-41b9-8ce7-30e814cf6355.png)
 
-The site is fully compatible for all devices using Chrome, Safari, Firefox, Edge or Opera browser.
+The site is fully compatible with all devices using Chrome, Safari, Firefox, Edge, or Opera browser.
 
 ### Manual Testing
 
@@ -189,11 +220,18 @@ The site is fully compatible for all devices using Chrome, Safari, Firefox, Edge
 
 ### Defect Tracking
 
-
+- Problem with empty space on the right side of the home page - tracked and fixed on 4th Oct 2022
+- Problem with a too big margin above Nissan370z picture on home page - tracked and fixed on 7th Oct 2022
+- Problem with displaying main div content of the home page for Opera browser - tracked and fixed on 7th Oct 2022
+- Problem with displaying Nissan370z picture and quote for mobile devices - tracked and fixed on 7th Oct 2022
+- Double </i> closing tags - tracked and fixed on 8th Oct 2022
+- Too big margin for footer section (all devices) - tracked and fixed on 12th Oct 2022
+- Duplicate ID in footer - tracked and fixed on 14th Oct 2022
+- Bug with map display in booking.html page, no scroll option removed - tracked and fixed on 14th Oct 2022
 
 ## Accessibility
 
-Accessibility testing is aimed to make sure that those with visual or physical disabilities can still browse your website. Some users have had strokes or accidents that make it difficult to use a mouse so they use keyboard keys to tab through sites. Others use screen readers that rely on HTML tags to help the user navigate quickly through the site to find information they want, others have color blindness or contrast issues. It's the law to provide services 
+Accessibility testing is aimed to make sure that those with visual or physical disabilities can still browse your website. Some users have had strokes or accidents that make it difficult to use a mouse so they use keyboard keys to tab through sites. Others use screen readers that rely on HTML tags to help the user navigate quickly through the site to find the information they want, others have color blindness or contrast issues. It's the law to provide services 
 Here's a [site](https://www.w3.org/WAI/fundamentals/accessibility-intro/#:~:text=Accessibility%20is%20Important%20for%20Individuals%2C%20Businesses%2C%20Society,-The%20Web%20is&text=That%20is%2C%20the%20accessibility%20barriers,older%20people) where you can learn more about accessibility and the internet.
 
 ### Lighthouse Audits
@@ -206,50 +244,50 @@ Here's a [site](https://www.w3.org/WAI/fundamentals/accessibility-intro/#:~:text
 
 ### Keyboard Navigation
 
-The website allows a user to fully navigate with Tab key.
+The website allows a user to fully navigate with the Tab key.
 
 ## Deployment
 
 - The site was deployed to GitHub pages:
-    1. GitHub EngineBoostGarage repository -> settings
+    GitHub EngineBoostGarage repository -> settings
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195993317-61729a82-8f91-438b-93c5-cc751428002f.png)
     
-    2. Select pages:
+    Select pages:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195993351-ee95f76f-48c1-4c01-9a6c-b6c0ede121a5.png)
     
-    3. Deploy from a branch, select main branch and save:
+    Deploy from a branch, select the main branch and save:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195993404-aa51e712-2ef2-4ead-87ee-6e7b98240704.png)
 
 ## Credits
 
-- https://learn.codeinstitute.net/ - Love Running and Coders Coffeehouse projects helped me a lot to understand main points of the good website
-- https://stackoverflow.com/ - great site for troubleshooting
+- https://learn.codeinstitute.net/ - Love Running and Coders Coffeehouse projects helped me a lot to understand the main points of the good website
+- https://stackoverflow.com/ - a great site for troubleshooting
 - https://www.w3schools.com/ - gallery code inspiration
 - https://fontjoy.com/ - font idea inspiration
 
 ### Content
 
-- https://quotefancy.com - Jeremy Clarkson quote
+- https://quotefancy.com - Jeremy Clarkson's quote
 
 ### Media
 
 - https://www.pexels.com/ - all images were taken from Pexels
 - https://imagecompressor.com/ - image optimizer
-- https://cloudconvert.com - jpg to webp image convertion
+- https://cloudconvert.com - jpg to webp image conversion
 - https://fontawesome.com - icons
 - https://google-map-generator.com/ - Google map iframe
 
 ### Acknowledgments
 
-Big thanks to Malia Havlicek - Code Institute mentor for ideas and support in this project!
-Also I would like to thank all my friends for live testing the site!
+Big thanks to Malia Havlicek - Code Institute mentor for her ideas and support in this project!
+Also, I would like to thank all my friends for live testing the site!
 
 - https://gs.statcounter.com/ - browser market share for Ireland
 - https://www.browserstack.com/ - Safari browser testing tool
 - https://ui.dev - responsiveness testing
-- https://validator.w3.org/ - html validator
-- https://jigsaw.w3.org/ - css validator
+- https://validator.w3.org/ - HTML validator
+- https://jigsaw.w3.org/ - CSS validator
 - https://web.dev - performance testing
