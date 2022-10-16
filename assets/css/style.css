@@ -1,6 +1,9 @@
 /* Google font link */
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&family=NTR&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: Exo, NTR, sans-serif;
@@ -144,7 +147,7 @@ nav > a {
 /* projects gallery */
 
 .project {
-    margin: 1%;
+    margin: 1% 25px;
     border: 1px solid white;
     width: auto;
     align-items: center;
@@ -154,13 +157,17 @@ nav > a {
 .project img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 .description {
     padding: 5px;
     text-align: center;
     font-size: larger;
+}
+
+.description p {
+    padding: 0 5px;
 }
 
 /* Form */
@@ -196,6 +203,7 @@ nav > a {
     margin: 1% 0 3% 0;
     border: 1px solid white;
     border-radius: 2px;
+    padding: 0 7px;
 }
 
 .text-input:hover {
@@ -283,18 +291,16 @@ nav > a {
 }
 
 
-#bottom { /* -> tag for nav element */
+#bottom {
     padding: 1%;
     width: auto;
-    position: absolute;
+    position: fixed;
     left: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    bottom: 0;
 } 
 
 #bottom i {
-    font-size: 250%;
+    font-size: 200%;
 }
 
 .footer-style {
@@ -320,10 +326,9 @@ nav > a {
     color: yellow;
 }
 
-
 /* Media queries */
 
-/* For size from 1200px wide and down */
+/* For size from 1200px wide and down - small laptops*/
 @media screen and (max-width: 1200px) {
 
     header h1 {
@@ -339,6 +344,7 @@ nav > a {
 
     .content-center {
         display: block;
+        margin: 0 25px;
     }
 
     .left-div-box {
@@ -373,7 +379,7 @@ nav > a {
     }
 }
 
-/* For size from 800px wide and down */
+/* For size from 800px wide and down - tablets */
 @media screen and (max-width: 800px) {
     .footer-style {
         margin-left: -8%;
@@ -384,7 +390,7 @@ nav > a {
     }
 }
 
-/* For size from 500px wide and down */
+/* For size from 500px wide and down - mobile phones */
 @media screen and (max-width: 500px) {
 
     nav {
