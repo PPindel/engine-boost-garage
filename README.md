@@ -1,50 +1,22 @@
 # ENGINE BOOST GARAGE
-    
-![obraz](https://user-images.githubusercontent.com/114284732/195981196-24578f1f-295b-4aa6-8f16-978703f5808e.png)
+
+![obraz](https://user-images.githubusercontent.com/114284732/196185141-5c873353-27ae-45e0-9d00-1f6629154e57.png)
 
 https://ppindel.github.io/engine-boost-garage/
 
-Milestone Project 1
+Portfolio Project 1
 
 # Author
 Przemyslaw Pindel
 
 # Project Overview
-![obraz](https://user-images.githubusercontent.com/114284732/195981449-651e44be-fc06-4563-9576-9416eaec18af.png)
+
+![obraz](https://user-images.githubusercontent.com/114284732/196185496-7a0a0a03-4843-4857-989f-f807ae442476.png)
+
 Engine Boost Garage is a website of a garage specializing in tuning car engines and components. The dark theme with a contrasting orange color is a reference to late-night rides in the light of street lamps - an activity loved by every car lover, Need for Speed, Fast and Furious, or JDM fan. Also provides clarity, readability, and aesthetics.
 
 ## Table of Contents
 
-- [ENGINE BOOST GARAGE](#engine-boost-garage)
-- [Author](#author)
-- [Project Overview](#project-overview)
-  * [Table of Contents](#table-of-contents)
-  * [UX](#ux)
-    + [Project Goals](#project-goals)
-    + [Design Choices](#design-choices)
-      - [Colors](#colors)
-      - [Typography](#typography)
-      - [Images](#images)
-      - [Animations and Transitions](#animations-and-transitions)
-    + [Wireframes](#wireframes)
-    + [Features](#features)
-      - [Implemented Features](#implemented-features)
-      - [Future Features](#future-features)
-  * [Testing](#testing)
-    + [Validation Testing](#validation-testing)
-    + [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
-    + [Manual Testing](#manual-testing)
-    + [Defect Tracking](#defect-tracking)
-  * [Accessibility](#accessibility)
-    + [Lighthouse Audits](#lighthouse-audits)
-    + [Keyboard Navigation](#keyboard-navigation)
-  * [Deployment](#deployment)
-  * [Credits](#credits)
-    + [Content](#content)
-    + [Media](#media)
-    + [Acknowledgments](#acknowledgments)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 ## UX
@@ -52,7 +24,7 @@ Engine Boost Garage is a website of a garage specializing in tuning car engines 
 
 As I mentioned before, the website design is not accidental. It refers to popular icons, fit into the subculture of the tuning world, and targets adult users. Also provides a professional, aesthetic look so every customer will enjoy the clear design of the site.
 
-### Design Choices
+### User stories
 
 As a customer I expect:
 - clear look
@@ -65,18 +37,13 @@ As a developer I expect:
 - hassle-free implementation of new features
 - simple adding of new content at the request of the owner
 
+### Design choices
+
 #### Colors
 
-- Background - rgb(25, 25, 25) - grey
-- Headings - orange
-- Paragraphs - white
-- Hover action - yellow
-- Divs - rgb(15, 15, 15) - dark grey
-- Nav background - black
+Contrasting theme idea - street lamps illuminate the night.
 
-Contrasting theme designed by myself - street lamps illuminate the night.
-
-![obraz](https://user-images.githubusercontent.com/114284732/195984115-aff236f7-1741-4a77-aed4-f1f6fe962206.png)
+![obraz](https://user-images.githubusercontent.com/114284732/196186138-eda054be-7458-4715-b204-16a321b68256.png)
 
 #### Typography
 
@@ -119,7 +86,8 @@ I didn't want to overwhelm the user with too many animation effects. In my opini
 ### Features
 
 This project contains three main pages:
-- home page with an about as section and a motto that reflects the spirit of being a car enthusiast.
+- home page with an about as section and a motto that reflects the spirit of being a car enthusiast
+- sticky nav bar after scrolling and fixed arrow to come back to the top
 - projects page which contains a gallery with finished modifications and projects
 - booking page contains a form where a user provides info about his car to get possible tuning options and dates available
 - successful form submission is confirmed by "thank you message"
@@ -127,31 +95,39 @@ This project contains three main pages:
 
 #### Implemented Features
 
+- Favicon:
+    
+    ![obraz](https://user-images.githubusercontent.com/114284732/196194031-34c2e49f-4af0-41ac-b19a-f1d9ae4029c2.png)
+
 - Header:
 
     all pages have the same header with the nav bar
     
-    ![obraz](https://user-images.githubusercontent.com/114284732/195986726-99e2c861-2ca6-4c8d-a09b-5698c84f2590.png)
+    ![obraz](https://user-images.githubusercontent.com/114284732/196190106-a7a2514c-a7f6-4960-9b4d-de7a01d22344.png)
 
-- Nav bar:
+- Sticky nav bar after scrolling down:
 
-    ![obraz](https://user-images.githubusercontent.com/114284732/195986739-f52b2c03-fcdd-4279-b071-135f6b3fe46f.png)
-    
-    Navigates to the home page, projects gallery, and booking page. Also added a tag to socials - at the bottom of the page for easy page navigation.
+    ![obraz](https://user-images.githubusercontent.com/114284732/196190396-c940c899-c4cf-4cb2-b705-782c85147fef.png)
+
+    Navigates to the home page, projects gallery, and booking page.
     The current site is marked with an underline.
 
-- About us section:
+- Responsive about us section:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195986817-d9c1c7bd-97a0-430f-bbe4-95c10cd3333b.png)
     
-    Short and consistent info about the company and services provided
+    Short and consistent info about the company and services provided - hides an image for smaller devices to improve readability
+    
+    ![obraz](https://user-images.githubusercontent.com/114284732/196192369-87b1429d-ff04-49ab-bfa0-fb8cf2bb3c49.png)
 
-- Motto section:
+- Responsive motto section:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195986898-16500dd5-90cf-4f4e-8045-1a06c133785e.png)
     
     Image of a beautiful car with a quote from one of the most recognizable icons of the car world - Jeremy Clarkson.
-    This is not only business, this is our lifestyle.
+    This is not only business, this is our lifestyle. Display changes to block for devices under 1200px
+    
+    ![obraz](https://user-images.githubusercontent.com/114284732/196192486-ac42e987-6245-4aa9-a1e2-c1e63aabcc6f.png)
 
 - Address and footer:
 
@@ -181,7 +157,7 @@ This project contains three main pages:
     
 - Custom 404 error page:
 
-    ![obraz](https://user-images.githubusercontent.com/114284732/195987330-31e3030c-88f4-4e60-8bd5-a6ca29306f1d.png)
+    ![obraz](https://user-images.githubusercontent.com/114284732/196193826-2ed5072d-8767-41be-a5b9-a5aebb020569.png)
     
     404 error page to show a user that we have a sense of humor :)
     
@@ -228,6 +204,7 @@ The site is fully compatible with all devices using Chrome, Safari, Firefox, Edg
 - Too big margin for footer section (all devices) - tracked and fixed on 12th Oct 2022
 - Duplicate ID in footer - tracked and fixed on 14th Oct 2022
 - Bug with map display in booking.html page, no scroll option removed - tracked and fixed on 14th Oct 2022
+- Small bug with too width nav bar (width changed from 100% to auto) - tracked and fixed on 17th Oct 2022
 
 ## Accessibility
 
@@ -267,6 +244,7 @@ The website allows a user to fully navigate with the Tab key.
 - https://stackoverflow.com/ - a great site for troubleshooting
 - https://www.w3schools.com/ - gallery code inspiration
 - https://fontjoy.com/ - font idea inspiration
+- https://codepen.io/yuchehsieh/pen/ExaWvbe - sticky navbar feature
 
 ### Content
 
@@ -279,6 +257,7 @@ The website allows a user to fully navigate with the Tab key.
 - https://cloudconvert.com - jpg to webp image conversion
 - https://fontawesome.com - icons
 - https://google-map-generator.com/ - Google map iframe
+- https://coolors.co/ - color palette generator
 
 ### Acknowledgments
 
