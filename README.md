@@ -17,6 +17,37 @@ Engine Boost Garage is a website of a garage specializing in tuning car engines 
 
 ## Table of Contents
 
+- [ENGINE BOOST GARAGE](#engine-boost-garage)
+- [Author](#author)
+- [Project Overview](#project-overview)
+  * [Table of Contents](#table-of-contents)
+  * [UX](#ux)
+    + [Project Goals](#project-goals)
+    + [User stories](#user-stories)
+    + [Design choices](#design-choices)
+      - [Colors](#colors)
+      - [Typography](#typography)
+      - [Images](#images)
+      - [Animations and Transitions](#animations-and-transitions)
+    + [Wireframes](#wireframes)
+    + [Features](#features)
+      - [Implemented Features](#implemented-features)
+      - [Future Features](#future-features)
+  * [Testing](#testing)
+    + [Validation Testing](#validation-testing)
+    + [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
+    + [Manual Testing](#manual-testing)
+    + [Defect Tracking](#defect-tracking)
+  * [Accessibility](#accessibility)
+    + [Lighthouse Audits](#lighthouse-audits)
+    + [Keyboard Navigation](#keyboard-navigation)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgments](#acknowledgments)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 ## UX
@@ -186,13 +217,31 @@ This project contains three main pages:
 
 As the biggest market share in Ireland belongs to Chrome and Safari, I focused on these two browsers and didn't forget about others too.
 
-![obraz](https://user-images.githubusercontent.com/114284732/195990724-13650686-9916-41b9-8ce7-30e814cf6355.png)
+Iphone 13 Pro
 
-The site is fully compatible with all devices using Chrome, Safari, Firefox, Edge, or Opera browser.
+![obraz](https://user-images.githubusercontent.com/114284732/196225788-99190dd4-5e28-400e-b5c0-6730382968d0.png)
+
+Iphone 13 Mini
+
+![obraz](https://user-images.githubusercontent.com/114284732/196225875-9dc14076-cc5b-4223-94d9-3e7d283a9b89.png)
+
+Ipad Pro
+
+![obraz](https://user-images.githubusercontent.com/114284732/196226324-4683503d-f58c-4f4d-9f60-6e2657cd9486.png)
+
+Mac
+
+![obraz](https://user-images.githubusercontent.com/114284732/196226731-5bf21342-0e49-4022-84b5-ece8a7bb9d07.png)
+
+Samsung S22
+
+![obraz](https://user-images.githubusercontent.com/114284732/196227115-a877fae0-3cd8-4708-a6e0-ccfdf512630e.png)
+
+The site is fully compatible with all Windows, iOS, and Android devices using Chrome, Safari, Firefox, Edge, Opera or Samsung browser.
 
 ### Manual Testing
 
-![obraz](https://user-images.githubusercontent.com/114284732/195992446-883f5738-d942-423c-9560-e5d77583800a.png)
+https://docs.google.com/spreadsheets/d/1m6Gz4TojGCkIW2e6Ml6owGv7Xzy-e8yM/edit?usp=sharing&ouid=112368290695905562039&rtpof=true&sd=true
 
 ### Defect Tracking
 
@@ -209,15 +258,19 @@ The site is fully compatible with all devices using Chrome, Safari, Firefox, Edg
 ## Accessibility
 
 Accessibility testing is aimed to make sure that those with visual or physical disabilities can still browse your website. Some users have had strokes or accidents that make it difficult to use a mouse so they use keyboard keys to tab through sites. Others use screen readers that rely on HTML tags to help the user navigate quickly through the site to find the information they want, others have color blindness or contrast issues. It's the law to provide services 
-Here's a [site](https://www.w3.org/WAI/fundamentals/accessibility-intro/#:~:text=Accessibility%20is%20Important%20for%20Individuals%2C%20Businesses%2C%20Society,-The%20Web%20is&text=That%20is%2C%20the%20accessibility%20barriers,older%20people) where you can learn more about accessibility and the internet.
+Here's a [site](https://www.w3.org/WAI/fundamentals/accessibility-intro/#:~:text=Accessibility%20is%20Important%20for%20Individuals%2C%20Businesses%2C%20Society,-The%20Web%20is&text=That%20is%2C%20the%20accessibility%20barriers,older%20people) where we can learn more about accessibility and the internet.
+Engine Boos Garage site is designed to support users with reading difficulties.
 
 ### Lighthouse Audits
 
 - Chrome Lighthouse tool for PC:
-    ![obraz](https://user-images.githubusercontent.com/114284732/195992757-1bf46236-89c5-4b44-a48c-db44a98a611e.png)
+
+  ![obraz](https://user-images.githubusercontent.com/114284732/196223204-f3f09164-9caa-4afa-9ad6-aac00e48af5d.png)
 
 - Chrome Lighthouse tool for Mobile:
-    ![obraz](https://user-images.githubusercontent.com/114284732/195992802-b793e7e6-09bd-40d8-8492-e650763a9bd9.png)
+
+  ![obraz](https://user-images.githubusercontent.com/114284732/196224190-20e5378e-753a-4fa2-8785-4720439aef52.png)
+
 
 ### Keyboard Navigation
 
@@ -225,18 +278,19 @@ The website allows a user to fully navigate with the Tab key.
 
 ## Deployment
 
-- The site was deployed to GitHub pages:
-    GitHub EngineBoostGarage repository -> settings
+The site was deployed to GitHub pages:
 
-    ![obraz](https://user-images.githubusercontent.com/114284732/195993317-61729a82-8f91-438b-93c5-cc751428002f.png)
+1. Go to GitHub EngineBoostGarage repository then open settings:
+
+  ![obraz](https://user-images.githubusercontent.com/114284732/195993317-61729a82-8f91-438b-93c5-cc751428002f.png)
     
-    Select pages:
-
-    ![obraz](https://user-images.githubusercontent.com/114284732/195993351-ee95f76f-48c1-4c01-9a6c-b6c0ede121a5.png)
+2. Select pages:
+  
+  ![obraz](https://user-images.githubusercontent.com/114284732/195993351-ee95f76f-48c1-4c01-9a6c-b6c0ede121a5.png)
     
-    Deploy from a branch, select the main branch and save:
+3. Choose source to deploy from a branch, then select the main branch and save:
 
-    ![obraz](https://user-images.githubusercontent.com/114284732/195993404-aa51e712-2ef2-4ead-87ee-6e7b98240704.png)
+  ![obraz](https://user-images.githubusercontent.com/114284732/195993404-aa51e712-2ef2-4ead-87ee-6e7b98240704.png)
 
 ## Credits
 
