@@ -394,6 +394,15 @@ nav>a {
     .footer-style i {
         font-size: 350%
     }
+
+    #thankyou {
+        font-size: 125%;
+    }
+
+    .thankyou-section {
+        height: 100%;
+        width: auto;
+    }
 }
 
 /* For size from 500px wide and down - mobile phones */
