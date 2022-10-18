@@ -403,6 +403,10 @@ nav>a {
         height: 100%;
         width: auto;
     }
+
+    .description {
+        text-align: left;
+    }
 }
 
 /* For size from 500px wide and down - mobile phones */
