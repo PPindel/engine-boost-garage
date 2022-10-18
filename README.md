@@ -1,16 +1,18 @@
 # ENGINE BOOST GARAGE
-    
-![obraz](https://user-images.githubusercontent.com/114284732/195981196-24578f1f-295b-4aa6-8f16-978703f5808e.png)
+
+![obraz](https://user-images.githubusercontent.com/114284732/196185141-5c873353-27ae-45e0-9d00-1f6629154e57.png)
 
 https://ppindel.github.io/engine-boost-garage/
 
-Milestone Project 1
+Portfolio Project 1
 
 # Author
 Przemyslaw Pindel
 
 # Project Overview
-![obraz](https://user-images.githubusercontent.com/114284732/195981449-651e44be-fc06-4563-9576-9416eaec18af.png)
+
+![obraz](https://user-images.githubusercontent.com/114284732/196185496-7a0a0a03-4843-4857-989f-f807ae442476.png)
+
 Engine Boost Garage is a website of a garage specializing in tuning car engines and components. The dark theme with a contrasting orange color is a reference to late-night rides in the light of street lamps - an activity loved by every car lover, Need for Speed, Fast and Furious, or JDM fan. Also provides clarity, readability, and aesthetics.
 
 ## Table of Contents
@@ -21,7 +23,8 @@ Engine Boost Garage is a website of a garage specializing in tuning car engines 
   * [Table of Contents](#table-of-contents)
   * [UX](#ux)
     + [Project Goals](#project-goals)
-    + [Design Choices](#design-choices)
+    + [User stories](#user-stories)
+    + [Design choices](#design-choices)
       - [Colors](#colors)
       - [Typography](#typography)
       - [Images](#images)
@@ -52,7 +55,7 @@ Engine Boost Garage is a website of a garage specializing in tuning car engines 
 
 As I mentioned before, the website design is not accidental. It refers to popular icons, fit into the subculture of the tuning world, and targets adult users. Also provides a professional, aesthetic look so every customer will enjoy the clear design of the site.
 
-### Design Choices
+### User stories
 
 As a customer I expect:
 - clear look
@@ -65,18 +68,13 @@ As a developer I expect:
 - hassle-free implementation of new features
 - simple adding of new content at the request of the owner
 
+### Design choices
+
 #### Colors
 
-- Background - rgb(25, 25, 25) - grey
-- Headings - orange
-- Paragraphs - white
-- Hover action - yellow
-- Divs - rgb(15, 15, 15) - dark grey
-- Nav background - black
+Contrasting theme idea - street lamps illuminate the night.
 
-Contrasting theme designed by myself - street lamps illuminate the night.
-
-![obraz](https://user-images.githubusercontent.com/114284732/195984115-aff236f7-1741-4a77-aed4-f1f6fe962206.png)
+![obraz](https://user-images.githubusercontent.com/114284732/196186138-eda054be-7458-4715-b204-16a321b68256.png)
 
 #### Typography
 
@@ -119,7 +117,8 @@ I didn't want to overwhelm the user with too many animation effects. In my opini
 ### Features
 
 This project contains three main pages:
-- home page with an about as section and a motto that reflects the spirit of being a car enthusiast.
+- home page with an about as section and a motto that reflects the spirit of being a car enthusiast
+- sticky nav bar after scrolling and fixed arrow to come back to the top
 - projects page which contains a gallery with finished modifications and projects
 - booking page contains a form where a user provides info about his car to get possible tuning options and dates available
 - successful form submission is confirmed by "thank you message"
@@ -127,31 +126,39 @@ This project contains three main pages:
 
 #### Implemented Features
 
+- Favicon:
+    
+    ![obraz](https://user-images.githubusercontent.com/114284732/196194031-34c2e49f-4af0-41ac-b19a-f1d9ae4029c2.png)
+
 - Header:
 
     all pages have the same header with the nav bar
     
-    ![obraz](https://user-images.githubusercontent.com/114284732/195986726-99e2c861-2ca6-4c8d-a09b-5698c84f2590.png)
+    ![obraz](https://user-images.githubusercontent.com/114284732/196190106-a7a2514c-a7f6-4960-9b4d-de7a01d22344.png)
 
-- Nav bar:
+- Sticky nav bar after scrolling down:
 
-    ![obraz](https://user-images.githubusercontent.com/114284732/195986739-f52b2c03-fcdd-4279-b071-135f6b3fe46f.png)
-    
-    Navigates to the home page, projects gallery, and booking page. Also added a tag to socials - at the bottom of the page for easy page navigation.
+    ![obraz](https://user-images.githubusercontent.com/114284732/196190396-c940c899-c4cf-4cb2-b705-782c85147fef.png)
+
+    Navigates to the home page, projects gallery, and booking page.
     The current site is marked with an underline.
 
-- About us section:
+- Responsive about us section:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195986817-d9c1c7bd-97a0-430f-bbe4-95c10cd3333b.png)
     
-    Short and consistent info about the company and services provided
+    Short and consistent info about the company and services provided - hides an image for smaller devices to improve readability
+    
+    ![obraz](https://user-images.githubusercontent.com/114284732/196192369-87b1429d-ff04-49ab-bfa0-fb8cf2bb3c49.png)
 
-- Motto section:
+- Responsive motto section:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195986898-16500dd5-90cf-4f4e-8045-1a06c133785e.png)
     
     Image of a beautiful car with a quote from one of the most recognizable icons of the car world - Jeremy Clarkson.
-    This is not only business, this is our lifestyle.
+    This is not only business, this is our lifestyle. Display changes to block for devices under 1200px
+    
+    ![obraz](https://user-images.githubusercontent.com/114284732/196192486-ac42e987-6245-4aa9-a1e2-c1e63aabcc6f.png)
 
 - Address and footer:
 
@@ -181,7 +188,7 @@ This project contains three main pages:
     
 - Custom 404 error page:
 
-    ![obraz](https://user-images.githubusercontent.com/114284732/195987330-31e3030c-88f4-4e60-8bd5-a6ca29306f1d.png)
+    ![obraz](https://user-images.githubusercontent.com/114284732/196193826-2ed5072d-8767-41be-a5b9-a5aebb020569.png)
     
     404 error page to show a user that we have a sense of humor :)
     
@@ -210,13 +217,31 @@ This project contains three main pages:
 
 As the biggest market share in Ireland belongs to Chrome and Safari, I focused on these two browsers and didn't forget about others too.
 
-![obraz](https://user-images.githubusercontent.com/114284732/195990724-13650686-9916-41b9-8ce7-30e814cf6355.png)
+Iphone 13 Pro
 
-The site is fully compatible with all devices using Chrome, Safari, Firefox, Edge, or Opera browser.
+![obraz](https://user-images.githubusercontent.com/114284732/196225788-99190dd4-5e28-400e-b5c0-6730382968d0.png)
+
+Iphone 13 Mini
+
+![obraz](https://user-images.githubusercontent.com/114284732/196225875-9dc14076-cc5b-4223-94d9-3e7d283a9b89.png)
+
+Ipad Pro
+
+![obraz](https://user-images.githubusercontent.com/114284732/196226324-4683503d-f58c-4f4d-9f60-6e2657cd9486.png)
+
+Mac
+
+![obraz](https://user-images.githubusercontent.com/114284732/196226731-5bf21342-0e49-4022-84b5-ece8a7bb9d07.png)
+
+Samsung S22
+
+![obraz](https://user-images.githubusercontent.com/114284732/196227115-a877fae0-3cd8-4708-a6e0-ccfdf512630e.png)
+
+The site is fully compatible with all Windows, iOS, and Android devices using Chrome, Safari, Firefox, Edge, Opera or Samsung browser.
 
 ### Manual Testing
 
-![obraz](https://user-images.githubusercontent.com/114284732/195992446-883f5738-d942-423c-9560-e5d77583800a.png)
+https://docs.google.com/spreadsheets/d/1m6Gz4TojGCkIW2e6Ml6owGv7Xzy-e8yM/edit?usp=sharing&ouid=112368290695905562039&rtpof=true&sd=true
 
 ### Defect Tracking
 
@@ -228,19 +253,24 @@ The site is fully compatible with all devices using Chrome, Safari, Firefox, Edg
 - Too big margin for footer section (all devices) - tracked and fixed on 12th Oct 2022
 - Duplicate ID in footer - tracked and fixed on 14th Oct 2022
 - Bug with map display in booking.html page, no scroll option removed - tracked and fixed on 14th Oct 2022
+- Small bug with too width nav bar (width changed from 100% to auto) - tracked and fixed on 17th Oct 2022
 
 ## Accessibility
 
 Accessibility testing is aimed to make sure that those with visual or physical disabilities can still browse your website. Some users have had strokes or accidents that make it difficult to use a mouse so they use keyboard keys to tab through sites. Others use screen readers that rely on HTML tags to help the user navigate quickly through the site to find the information they want, others have color blindness or contrast issues. It's the law to provide services 
-Here's a [site](https://www.w3.org/WAI/fundamentals/accessibility-intro/#:~:text=Accessibility%20is%20Important%20for%20Individuals%2C%20Businesses%2C%20Society,-The%20Web%20is&text=That%20is%2C%20the%20accessibility%20barriers,older%20people) where you can learn more about accessibility and the internet.
+Here's a [site](https://www.w3.org/WAI/fundamentals/accessibility-intro/#:~:text=Accessibility%20is%20Important%20for%20Individuals%2C%20Businesses%2C%20Society,-The%20Web%20is&text=That%20is%2C%20the%20accessibility%20barriers,older%20people) where we can learn more about accessibility and the internet.
+Engine Boos Garage site is designed to support users with reading difficulties.
 
 ### Lighthouse Audits
 
 - Chrome Lighthouse tool for PC:
-    ![obraz](https://user-images.githubusercontent.com/114284732/195992757-1bf46236-89c5-4b44-a48c-db44a98a611e.png)
+
+  ![obraz](https://user-images.githubusercontent.com/114284732/196223204-f3f09164-9caa-4afa-9ad6-aac00e48af5d.png)
 
 - Chrome Lighthouse tool for Mobile:
-    ![obraz](https://user-images.githubusercontent.com/114284732/195992802-b793e7e6-09bd-40d8-8492-e650763a9bd9.png)
+
+  ![obraz](https://user-images.githubusercontent.com/114284732/196224190-20e5378e-753a-4fa2-8785-4720439aef52.png)
+
 
 ### Keyboard Navigation
 
@@ -248,18 +278,19 @@ The website allows a user to fully navigate with the Tab key.
 
 ## Deployment
 
-- The site was deployed to GitHub pages:
-    GitHub EngineBoostGarage repository -> settings
+The site was deployed to GitHub pages:
 
-    ![obraz](https://user-images.githubusercontent.com/114284732/195993317-61729a82-8f91-438b-93c5-cc751428002f.png)
+1. Go to GitHub EngineBoostGarage repository then open settings:
+
+  ![obraz](https://user-images.githubusercontent.com/114284732/195993317-61729a82-8f91-438b-93c5-cc751428002f.png)
     
-    Select pages:
-
-    ![obraz](https://user-images.githubusercontent.com/114284732/195993351-ee95f76f-48c1-4c01-9a6c-b6c0ede121a5.png)
+2. Select pages:
+  
+  ![obraz](https://user-images.githubusercontent.com/114284732/195993351-ee95f76f-48c1-4c01-9a6c-b6c0ede121a5.png)
     
-    Deploy from a branch, select the main branch and save:
+3. Choose source to deploy from a branch, then select the main branch and save:
 
-    ![obraz](https://user-images.githubusercontent.com/114284732/195993404-aa51e712-2ef2-4ead-87ee-6e7b98240704.png)
+  ![obraz](https://user-images.githubusercontent.com/114284732/195993404-aa51e712-2ef2-4ead-87ee-6e7b98240704.png)
 
 ## Credits
 
@@ -267,6 +298,7 @@ The website allows a user to fully navigate with the Tab key.
 - https://stackoverflow.com/ - a great site for troubleshooting
 - https://www.w3schools.com/ - gallery code inspiration
 - https://fontjoy.com/ - font idea inspiration
+- https://codepen.io/yuchehsieh/pen/ExaWvbe - sticky navbar feature
 
 ### Content
 
@@ -279,6 +311,7 @@ The website allows a user to fully navigate with the Tab key.
 - https://cloudconvert.com - jpg to webp image conversion
 - https://fontawesome.com - icons
 - https://google-map-generator.com/ - Google map iframe
+- https://coolors.co/ - color palette generator
 
 ### Acknowledgments
 
