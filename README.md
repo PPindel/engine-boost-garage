@@ -108,21 +108,41 @@ I didn't want to overwhelm the user with too many animation effects. In my opini
 
 - simply animation is added to social media icons
 
-  ![obraz](https://user-images.githubusercontent.com/114284732/195984602-33d5ecce-e159-485f-824a-8cd1eb1ade11.png) -> ![obraz](https://user-images.githubusercontent.com/114284732/195984612-97dee213-26d2-4899-b9c7-d1442865f0a0.png)
+  ![obraz](https://user-images.githubusercontent.com/114284732/195984602-33d5ecce-e159-485f-824a-8cd1eb1ade11.png) ![obraz](https://user-images.githubusercontent.com/114284732/195984612-97dee213-26d2-4899-b9c7-d1442865f0a0.png)
 
 ### Wireframes
 
-![obraz](https://user-images.githubusercontent.com/114284732/195985585-af183e7f-86a9-494b-bf24-3260ea8c5867.png)
+- Home page for desktop:
+
+  ![obraz](https://user-images.githubusercontent.com/114284732/195985585-af183e7f-86a9-494b-bf24-3260ea8c5867.png)
+
+- Home page for mobile:
+
+  ![obraz](https://user-images.githubusercontent.com/114284732/196673803-3cb4fac0-47f2-4038-9434-5a557eb15676.png)
+
+- Gallery:
+
+  ![obraz](https://user-images.githubusercontent.com/114284732/196673944-c77b7613-3235-4056-9e20-828d2d0fff27.png)
+
+- Form:
+
+  ![obraz](https://user-images.githubusercontent.com/114284732/196674086-de05a189-084c-494c-bb58-8ce9ce8bc3ac.png)
+
+- Custom "thank you" and 404 error pages:
+
+  ![obraz](https://user-images.githubusercontent.com/114284732/196674224-4f5bd11c-259c-4789-8f46-2aa27ccc98d6.png)
 
 ### Features
 
-This project contains three main pages:
+This project has implemented features:
 - home page with an about as section and a motto that reflects the spirit of being a car enthusiast
-- sticky nav bar after scrolling and fixed arrow to come back to the top
+- sticky nav bar after scrolling and fixed arrow in the bottom left corner to come back to the top
 - projects page which contains a gallery with finished modifications and projects
 - booking page contains a form where a user provides info about his car to get possible tuning options and dates available
 - successful form submission is confirmed by "thank you message"
 - custom 404 page
+- responsive design with layout changing sections for smaller devices
+- smooth scrolling
 
 #### Implemented Features
 
@@ -164,7 +184,7 @@ This project contains three main pages:
 
     ![obraz](https://user-images.githubusercontent.com/114284732/195987007-ccdec1ee-188d-4c5c-87d9-1a9ce37893dc.png)
     
-    Address info on every page, a footer with stylized icons leading to social websites, and a small arrow in the bottom left of the page to easily go back to the top of the page.
+    Address info on every page, a footer with stylized icons leading to social websites, and a small arrow in the bottom left of the page to easily go back to the top of the page with implemented smooth scrolling.
 
 - Gallery:
 
